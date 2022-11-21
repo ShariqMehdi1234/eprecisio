@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: #fafafa !important;
+}
+
+.breadcrumb-link {
+    color: #8C8C8C !important;
+    text-decoration: none !important;
+    font-size: 1.125rem !important;
+    font-weight: 600 !important;
+}
+
+.breadcrumb-link:hover {
+    color: #8C8C8C !important;
+}
+
+.breadcrumb-link-active {
+    color: #01C38D !important;
+    text-decoration: none !important;
+    font-size: 1.125rem !important;
+    font-weight: 600 !important;
+}
+
+.breadcrumb-link-active:hover {
+    color: #01C38D !important;
+}
+
+.i-active {
+    display: flex !important;
+    align-items: center !important;
+    margin-right: 10px !important;
+    color: #8C8C8C !important;
+}
+
+.margin-left-right {
+    margin-left: 4% !important;
+    margin-right: 4% !important;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+}
+
+.container-fuild-margin {
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+    padding-bottom: 2% !important;
+}
+
+.span-input {
+    border: 0px solid #8097ae !important;
+    border-left-width: 1px !important;
+    border-left-style: solid !important;
+    border-left-color: #ced4da !important;
+    border-top-width: 1px !important;
+    border-top-style: solid !important;
+    border-top-color: #ced4da !important;
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: #ced4da !important;
+    background: #ffffff !important;
+    padding: 1rem 0rem 1rem 1rem !important;
+    color: #8C8C8C !important;
+}
+
+.text-input {
+    border: 0px solid #8097ae !important;
+    border-right-width: 1px !important;
+    border-right-style: solid !important;
+    border-right-color: #ced4da !important;
+    border-top-width: 1px !important;
+    border-top-style: solid !important;
+    border-top-color: #ced4da !important;
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: #ced4da !important;
+    background: #ffffff !important;
+    font-size: 18px !important;
+    padding: 1rem 0.75rem 1rem 0.75rem !important;
+    color: #8C8C8C !important;
+}
+
+.import-button {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 1rem 4.75rem 1rem 4.75rem !important;
+    background: #01C38D !important;
+    border: 1px solid #01C38D !important;
+    border-radius: 4px !important;
+    margin-left: 1% !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+.border-radius {
+    border-radius: 4px !important;
+}
+
+.flaot-import-button {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 1rem 2.75rem 1rem 2.75rem !important;
+    background: #01C38D !important;
+    border: 1px solid #01C38D !important;
+    border-radius: 4px !important;
+    margin-left: 1% !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+.flaot-border-radius {
+    border-radius: 4px !important;
+}
+
+.font-size {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+
+.container-padding {
+    padding: 1.5rem !important;
+    background-color: #ffffff !important;
+    border-radius: 4px !important;
+}
+
+.iSAVrt {
+    background-color: transparent !important;
+}
+
+.kVrXuC {
+    border: 1px solid #E2E2E2 !important;
+    border-radius: 4px !important;
+    background-color: #fafafa !important;
+}
+
+.dwPlXY {
+    background-color: #ffffff !important;
+}
+
+.filter-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.4%;
+}
+
+.filter-select {
+    width: 12% !important;
+}
+
+@media only screen and (max-width: 1024px) { 
+    .import-button {
+        padding: 1rem 3.75rem 1rem 3.75rem !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .breadcrumb-link-active {
+        font-size: 1rem !important;
+    }
+
+    .breadcrumb-link-active {
+        font-size: 1rem !important;
+    }
+
+    .import-button {
+        padding: 1rem 1.75rem 1rem 1.75rem !important;
+    }
+
+}

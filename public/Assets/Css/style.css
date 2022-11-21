@@ -1,0 +1,335 @@
+.navbar{
+    background-color: white;
+}
+img{
+    background-color: aquamarine;
+}
+.platform{
+    padding-top: 5%;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.selectpt{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.select{
+    height: 250px;
+    padding: 40px !important;
+    background-color: white !important;
+    width: 24%;
+    margin: 1% 1% 1% 1%;
+    border-radius: 15px;
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+    color: #000000;
+}
+.hovering{
+    display: none;
+}
+.select:hover{
+    display: block;
+    background-color: rgba(32, 178, 171, 0.342) !important;
+    border:2px solid rgb(0, 128, 90) !important;
+    padding-top: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 20px !important;
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #000000 !important;
+}
+.select:hover .hovering{
+    display: block;
+}
+.select:hover .s1{
+    height: 70px;
+    width: 70px;
+}
+
+.display-nowrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.margin-items {
+    margin-right: 10px;
+}
+
+.Select-Platform {
+    font-size: 35px;
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+
+.hr {
+    margin: 20px;
+    width: 100%;
+    height: 3px;
+    background-color: #a60065;
+    border: 1px solid #a60065;
+}
+
+.model-select {
+    height: 70px;
+    width: 70px;
+}
+
+.model-search-by {
+    font-size: 18px;
+}
+
+.model-width-margin-bottom {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    color: rgba(38, 38, 38, 0.8) !important;
+    box-shadow: 0px 0px 20px rgb(40 41 61 / 8%), 0px 4px 20px rgb(96 97 112 / 4%);
+    border-radius: 8px !important;
+    padding: 14px !important;
+}
+
+.model-heading-h1 { 
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.model-width-margin-bottom:hover {
+    background-color: rgba(32, 178, 171, 0.342) !important;
+    border: 2px solid rgb(0, 128, 90) !important;
+}
+
+.div-hr {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 49.2%;
+    margin-left: 49.2%;
+}
+
+.p-text {
+    font-size: 16px;
+}
+
+.h5-div-heading {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.select-margin-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-primary {
+    background-color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+}
+
+.tabs-a {
+    color: #000000 !important;
+}
+
+.tabs-button-primary:hover {
+    background-color: rgba(32, 178, 171, 0.342) !important;
+    border: 2px solid rgb(0, 128, 90) !important;
+}
+
+.mobel-button-close {
+    padding: 0px !important;
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+}
+
+.mobel-button-i {
+    font-size: 24px !important;
+    color: #01C38D !important;
+}
+
+.mobel-button-exclamation {
+    font-size: 24px !important;
+    color: rgba(38, 38, 38, 0.8) !important;
+}
+
+.mobel-float {
+    float: right;
+}
+
+.modal {
+    display: flex !important;
+    align-items: center;
+    place-content: center;
+    flex-flow: column nowrap;
+}
+
+.modal.show .modal-dialog {
+    width: 20%;
+}
+
+.modal.fade .modal-dialog {
+    width: 20%;
+}
+
+.data-table-extensions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gMliOo svg {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    width: 25px !important;
+    height: 42px !important;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.jaZsat  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+    width: 25px;
+    height: 25px !important;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9 !important;
+    border-radius: 4px;
+}
+
+.gKbhqU {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.fyrdjl:hover {
+    fill:#01C38D !important;
+}
+
+.fyrdjl:disabled:hover {
+    color: rgba(0,0,0,.18) !important;
+    fill: rgba(0,0,0,.18) !important;
+}
+
+.fyrdjl:hover:not(:disabled) {
+    background-color: #ffffff !important;
+    border: 1px solid #01C38D !important;
+}
+
+.bueHSC {
+    margin-right: 73.5% !important;
+}
+
+.gKbhqU {
+    padding: 20px 0px 20px 0px !important;
+}
+
+.lmSJmf {
+    margin: 0px 13.5px 0px 0px !important;
+}
+
+.fyrdjl {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9 !important;
+    border-radius: 4px !important;
+    margin-left: 10px;
+}
+
+.float-button {
+    float: right;
+}
+
+@media only screen and (max-width: 1024px) {
+    .selectpt{
+        flex-direction: row;
+    }
+    .select{
+        width: 44%;
+    }
+
+    .div-hr {
+        margin-right: 48.2%;
+        margin-left: 48.2%;
+    }
+
+    .modal.show .modal-dialog {
+        width: 50%;
+    }
+
+    .modal.fade .modal-dialog {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .selectpt{
+        flex-direction: column;
+    }
+    .select{
+        width: 100%;
+        margin: 4% 1% 4% 1%;
+    }
+
+    .div-hr {
+        margin-right: 47.2%;
+        margin-left: 47.2%;
+    }
+
+    .Select-Platform {
+        font-size: 30px;
+    }
+
+    .p-text {
+        font-size: 15px;
+    }
+
+    .modal.show .modal-dialog {
+        width: 90%;
+    }
+
+    .modal.fade .modal-dialog {
+        width: 90%;
+    }
+
+}
